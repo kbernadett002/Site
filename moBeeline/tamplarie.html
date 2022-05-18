@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , intial-scale=1.0">
+    <title>Tâmplărie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <main class="tamp">
+        <div class="navbar">
+            <a href="index.html" class="header-logo">moBeeline</a>
+            <a href="desprenoi.html">Despre noi</a>
+            <a href="tamplarie.html">Tâmplărie</a>
+            <a href="apicultura.html">Apicultură</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="tamp-introducere">
+            <p>Oferim o gamă variată de mobilier la comandă, la standardele cerute de dvs. , din pal melaminat
+                și/sau MDF , mobilă de bucătărie, dormitor, living, birou etc.Aveți, astfel, posibilitatea să vă
+                amenajați creativ casa dvs., biroul, sau locul de muncă,
+                oferindu-vă soluții optime de amenajare, execuție și montaj. </p>
+            <p>Prin intermediul furnizorilor, coraboratorilor și angajaților noștrii, ne-am angajat să vă furnizăm
+                produse de cea mai bună calitate. Oferim produse unice, în funcție de dorințele fiecărui client în parte
+                dedicându-ne fiecăruia, venind
+                ,astfel, în întâmpinarea nevoilor clienților noștri.</p>
+            <p>Vă oferim tâmplărie din PVC cu geamuri termopan, executând ferestre PVC și uși cu geam termopan, sisteme
+                PVC, lucrări de montaj ferestre și uși termopan, care îndeplinesc cele mai înalte standarde de calitate.
+                Realizăm, de asemenea, la cerere, reparații ferestre și uși termopan defecte, accesorii
+                defecte,executând și montând plase de insecte de diferite mărimi.</p>
+            <p>Iată câteva dintre produsele noastre:</p>
+        </div>
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="mobile/dalmi.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob1.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob3.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob5.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob6.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob7.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob8.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob9.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob10.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob11.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob12.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/mob13.jpeg" style="width:100%">
+            <img class="mySlides" src="mobile/img4.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/img1.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/img2.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/img5.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/img9.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/img10.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/img13.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/img11.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/pvc2.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/pvc3.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/pvc1.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/pvc5.jpg" style="width:100%">
+            <img class="mySlides" src="mobile/pvc6.jpg" style="width:100%">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        
+
+    </main>
+    <div class="wrapper">
+        <footer>
+            <ul class="footer-links-main">
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="tamplarie.html">Tâmplărie</a></li>
+                <li><a href="apicultura.html">Apicultură</a></li>
+                <li><a href="desprenoi.html">Despre noi</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>&copy;Kiss Bernadett</li>
+            </ul>
+            <div class="footer-sm">
+                <a href="https://www.facebook.com/LegumeFlori-880056285387184/" target="blank">
+                    <img src="fb3.png" alt="facebook icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

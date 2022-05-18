@@ -1,0 +1,351 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:lightseagreen;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif ;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+.header-logo{
+    font-family: 'Special Elite', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px 0 ;
+    background-color: lightseagreen;
+}
+
+ @media only screen and (min-width: 1000px){
+ .header-logo{
+        margin: 20px 0 ;
+        text-align: left;
+        line-height: 30px;
+        padding:0 20px 0 40px ;
+        border-right: 3px solid white;
+        float: left;
+    }
+
+ }
+
+ /*index*/
+ .index-banner{
+    width: 100%;
+     height: calc(100vh - 100px);
+     background-image: url('index.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     display: table;
+ }
+
+ .vertical-center{
+     display: table-cell;
+     vertical-align: middle;
+ }
+
+ .index-banner h2{
+    font-family: 'Poppins', sans-serif;
+    font-size:60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+ }
+ 
+ .index-banner h1{
+   font-family: 'Corber Light';
+    font-size:30px;
+    font-weight:150;
+    font-style: italic;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+ }
+ 
+ .index-links div{
+     margin: 16px 16px 0;
+     width: calc(100% - 32px);
+     height: 100px;
+     background-color: #f2f2f2;
+ }
+
+
+ .index-links div h3{
+    font-family: 'Poppins', sans-serif;
+    font-size:28px;
+    font-weight:500;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ @media only screen and (min-width: 1000px){
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner{
+        width: 100%;
+        height: 450px;
+        
+    }
+    .index-banner h1{
+       display: block;
+       width: 560px;
+       margin:0 auto;
+     }
+
+    .index-links {
+        overflow: hidden;
+       }
+    .index-links div{
+      margin: 20px 10px 0;
+      height: 230px;
+      background-color: #f2f2f2;
+      float: left;
+     }
+    .index-boxlink-1{
+        width: calc(25% - 20px) !important;
+     }
+    .index-boxlink-2{
+        width: calc(50% - 20px) !important;
+    }
+    .index-links div h3{
+        
+        line-height: 180px;
+       
+     }
+ }
+
+ /*footer*/
+
+ footer{
+     width: 100%;
+     padding: 40px 40px;
+     margin-top: 20px;
+     background-color: #00AA9E;
+     overflow: hidden;
+ }
+
+ footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    background-color: #00AA9E;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+    color: #fff;
+    line-height:30px ;
+    background-color: #00AA9E;
+}
+
+
+footer ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size:24px;
+    color: #fff;
+    background-color: #00AA9E;
+}
+
+.footer-sm{
+    width: 50px;
+    float: right;
+}
+
+
+.footer-sm img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1000px){
+    footer ul{
+        padding-right: 30px;
+    } 
+}
+ /* Despre Noi*/
+ .two-column-wrapper{
+    display: block;
+ }
+ .profile-image-wrapper img{
+     width: 100%;
+ }
+ .profile-image-wrapper{
+     padding: 30px;
+ }
+ .profile-content-wrapper{
+    font-family:  'Poppins', sans-serif;
+    font-size: 20px;
+}
+ .profile-content-wrapper h1{
+     color:#1e1e1e;
+ }
+
+ @media only screen and (min-width: 1000px){
+    .two-column-wrapper{
+        display: grid;
+     grid-template-columns: 1fr 1fr;
+    }
+    .profile-image-wrapper img{
+        
+        float: left;
+    }
+    .profile-image-wrapper{
+        padding: 30px;
+    }
+ }
+
+ /* Tamplarie */
+ 
+ .mySlides{
+     display: none;
+     
+ }
+.tamp{
+    font-family:  'Poppins', sans-serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tamp-introducere{
+    margin: 0px 20px;
+    font-size: 26px;
+}
+@media only screen and (min-width: 1000px){
+    .tamp{
+        margin: 20px 10px 0;
+      height: fit-content;
+      float: left;
+      display: block;
+    }
+    .tamp-introducere{
+        padding-top: 20px;
+    }
+    
+    
+ }
+ /*Apicultura*/
+ .apicultura img{
+     width:100% ;
+     padding: auto;
+ }
+ .apicultura p{
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+
+ }
+ /*Contact*/
+ .contact{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 10px;
+ }
+ .contact-section {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
+}
+.contact-section h2{
+    font-size: 2em;
+}
+h2 {
+    font-size: 2em;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    border-radius: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+ .contact p{
+    font-size: large;
+}
+.contact-harta{
+    width:100%;
+}
+ 
+@media only screen and (min-width: 1000px){
+    .container-cnt {
+        width: 1080px;
+        margin: 0 auto;
+    }
+    .contact-section {
+        position: relative;
+     }
+        .container-cnt {
+            display: flex;
+        }
+
+    .contact-right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 45%;
+        height: 100%;
+    }
+        iframe {
+            height: 100%;
+            scroll-behavior: auto;
+        }
+    
+ }
